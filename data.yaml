@@ -1,0 +1,6 @@
+
+train: ./YOLO_dataset/images/train
+val: ./YOLO_dataset/images/train  # Reuse train set for simplicity (can create separate val set)
+
+nc: 1
+names: ['familiar']
